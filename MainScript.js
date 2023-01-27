@@ -124,6 +124,8 @@ function draw(){
     gameOverWindow.draw();
     helpWindow.draw();
     helpButton.draw();
+    fill(200,255,200)
+    text("(c)2023 Alex Mendelsberg",width - 125, height - 20)
 }
 
 function gameControl(){
